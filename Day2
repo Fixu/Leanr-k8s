@@ -1,0 +1,23 @@
+Control Plane
+--kube-apiserver
+--etcd
+--kube-scheduler
+--kube-controller-manager
+
+Nodes and node pools
+--kubelet 
+--kube-proxy
+--container runtime  Moby
+
+Pods
+
+Deployment and YMAL manifests
+
+Package management with Helm
+
+StatefulSets and DaemonSets
+
+NameSpaces
+--default
+--kube-system
+--kube-public
