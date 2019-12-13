@@ -1,0 +1,34 @@
+1.Install Docker for windows
+
+Prepare soure code and kubernete manifest file.yaml
+
+2.Local test
+docker-compose up -d
+
+docker images 
+
+docker ps
+
+docker-compose donw
+
+
+3.Push to Registry
+
+docker Tag <name> Registry/<name>:v1
+
+docker push Registry/<name>:v1
+
+
+4.Run app
+
+docker apply -f  file.yaml 
+
+kubectl get service
+
+kubectl ger pod
+
+5.scale
+kubectl scale --replicas=5 deployment/<name>
+
+
+
