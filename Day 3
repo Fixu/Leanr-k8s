@@ -1,3 +1,5 @@
+az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
+
 1.Install Docker for windows
 
 Prepare soure code and kubernete manifest file.yaml
